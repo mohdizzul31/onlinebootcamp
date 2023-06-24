@@ -21,15 +21,15 @@ img{
 
 } */
 
-p{
-    /* all:unset; */
-    /* font-family: 'Courier New', Courier, monospace; */
-    /* font-size: medium; */
-    /* font-style: underline; */
-    /* font-kerning: auto; */
-    line-height: 0.5rem;
-    /* text-align: center; */
-}
+/* p{
+    all:unset; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium; 
+    font-style: underline; 
+    font-kerning: auto; 
+    line-height: 0.5rem; 
+    text-align: center;
+} */
 
 nav{
     display: flex;
