@@ -63,3 +63,11 @@ nav{
     border-right: 1px solid black;
     
 }
+
+.intro {
+
+    position: absolute;
+    top: 90px;
+    left: 430px;
+
+}
