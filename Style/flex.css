@@ -1,0 +1,51 @@
+body{
+
+    margin: 0px;
+    /* untuk reset position  */
+
+}
+
+
+.container{
+    display: flex;
+    /* default box akan ke bawah.. flex box akan ke kanan */
+    flex-direction: row-reverse;
+    /* default-row row-reverse untuk reverse */
+    flex-wrap : wrap;
+    /* default nowrap... wrap means overflow akan ke bawah */
+    gap: 10px;
+    /* gap between box  */
+    align-items: end ;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    flex-grow: 1;
+    /* flex-grow untuk expand */
+    /* min-width: 600px; */
+    /* kalau red box 1000px yellow box 600px blue box 600px akan jadi over flow.. so dalam container bole setting flex-wrap  */
+
+}
+
+#red{
+    background-color:#F25F5C;
+    /* min-width: 1000px; */
+    /* red box akan expand 1000px dan yellow,blue box akan jd kecik fit */
+    height: 400px;
+
+    
+
+}
+
+#yellow{
+    background-color: #FFE066;
+    height: 500px;
+
+}
+
+#blue{
+    background-color: #247BA0;
+    height: 600px;
+
+}
